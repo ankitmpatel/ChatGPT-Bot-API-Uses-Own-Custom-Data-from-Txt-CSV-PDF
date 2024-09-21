@@ -7,7 +7,7 @@ def construct_index():
     # Set the directory path where your content_data folder is located
     directory_path = './context_data'
     # Set OpenAI API key
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "sk-lJz3s2Lqa0ske3**************bRt9ubmbQ3goEk"
     # set maximum input size
     max_input_size = 4096
     # set number of output tokens
