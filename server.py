@@ -11,7 +11,7 @@ app.config['BASIC_AUTH_PASSWORD'] = 'user123*'
 basic_auth = BasicAuth(app)
 
 def load_index():
-    os.environ["OPENAI_API_KEY"] = "sk-lJz3s2Lqa0oMN3p4gk2pT3suhkFJcnce0JbRt9ubmbQ3goEk"
+    os.environ["OPENAI_API_KEY"] = "sk-lJz3s2Lqa0oMN**************JbRt9ubmbQ3goEk"
     index = GPTSimpleVectorIndex.load_from_disk('index.json')
     return index
 
